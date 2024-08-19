@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E0F7FA;
+}
+
+header {
+    background-color: #F5F5DC; 
+    color: #333; 
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.produto {
+    text-align: center;
+    max-width: 300px;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.equipe-membro {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.equipe-membro img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.equipe-membro h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFA500; 
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
